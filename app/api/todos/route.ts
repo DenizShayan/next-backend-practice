@@ -1,6 +1,4 @@
-let todos = [
-    { id: 1, text: "Learn Next.js backend", done: false },
-  ];
+import { todos } from "./data";
   
   export async function GET() {
     return Response.json(todos);
